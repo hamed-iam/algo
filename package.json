@@ -1,0 +1,20 @@
+{
+  "name": "algo",
+  "version": "1.0.0",
+  "description": "datastructure and algo js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamed-iam/algo.git"
+  },
+  "author": "Hamed Ghazali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamed-iam/algo/issues"
+  },
+  "homepage": "https://github.com/hamed-iam/algo#readme"
+}
