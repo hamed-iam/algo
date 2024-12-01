@@ -78,6 +78,24 @@ class BinarySearchTree {
       console.log(root.value);
     }
   }
+
+  // BFS (breadth first search)
+  levelOrder() {
+    // use optimized queue class
+    const queue = [];
+    queue.push(this.root);
+
+    while (queue.length) {
+      let curr = queue.shift();
+      console.log(curr.value);
+      if (curr.left) {
+        queue.push(curr.left);
+      }
+      if (curr.right) {
+        queue.push(curr.right);
+      }
+    }
+  }
 }
 
 const bst = new BinarySearchTree();
